@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="estilosfor.css">
+
+</head>
+<body>
+    <H1>Formulario de información</H1>
+    <fieldset>
+        <legend >
+            Sus datos
+        </legend>
+    <p><label for="">Nombre y apellidos:</label> <input type="text" name="nombre" id="nom" maxlength="50">
+    </p>
+    <p><label for="">Contrseña:</label> <input  required type="password" name="contrase" id="contr" maxlength="8"> 
+    </p>
+    <p><label for="">Usuario</label> <input type="text" value="Anónimo" readonly disabled>
+        </p>
+        <label for="ue">Nivel</label> 
+         
+       <p> <label for="noue" >Profesional</label> 
+        <input type="radio" name="une" id="noue" value="une2" > 
+    </p>
+
+     <p> <label for="amer">Avanzado </label>
+        <input type="radio" name="une" id="amer" value="une3"  checked> 
+    </p>  
+        <p><label for="amer">Principiante</label> 
+        <input type="radio" name="une" id="amer" value="une3" >
+    </p>
+</fieldset>
+<label for="tipo">Nacionalidad :</label>
+<select name="tipohab" id="tipo" required>
+    <option value="4"> Alemania</option>
+    <option value="1" selected>España</option>
+    <option value="2">Italia </option>
+    <option value="3">Rumania</option>
+
+</p> 
+<label for="">Descripción:</label> <input type="observ"  >
+</p>
+
+    <p>
+        <input type="checkbox" value="" name="des" id="dese" checked >
+        <label for="">Deseo recibir información sobre novedades y ofertas</label>  
+    </p>
+    <p>
+        <input type="checkbox" value="" name="dese" id="deseo" >
+  <label for=""> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sonbre proytección de datos</label>
+
+<p>
+<label for="">Adjunte foto</label>
+ <input type="file" name="DNI" id="DNI">
+</p>
+<input style="margin-top: 10px;" type="submit" value="Eniar ">
+<input style="margin-top: 10px;" type="reset" value="Borar datos ">
+
+</body>
+</html>

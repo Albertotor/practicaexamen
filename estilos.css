@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Mina:wght@400;700&family=Monoton&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Mina:wght@400;700&family=Monoton&family=Pacifico&display=swap');
+
+
+body { background-image: url('el-mundo-del-bricolaje-1426.jpg');
+    background-size: cover; 
+     background-position: center; 
+      background-repeat: no-repeat; }
+
+h1{
+   font-family: "Pacifico", cursive;
+ font-weight: 400;
+ font-style: normal;
+ color: #D2691E;
+ text-align: center;
+ font-size: 50px;
+
+}
+h2{
+   font-family: "Caveat", cursive;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+ font-size: 30px;
+ color:  #00008B;
+}
+h3{
+font-family:Arial;
+font-size: 25px;
+color:  #008B8B;
+text-align: center;
+
+}
+p,li{
+font-family: Arial;
+
+}
+a:visited{
+color: gainsboro;
+
+}
+a:hover{
+font-weight: bold;
+color: red;
+
+}
+a:active{
+color: green;
+
+}
+table{
+width: 33%; margin: 0 auto; 
+border: 1px solid brown;
+border-collapse: collapse; 
+background-color: AntiqueWhite; 
+
+}
+table, th, td{
+   border: 1px solid brown; 
+   padding: 8px;
+text-align: left; 
+}
